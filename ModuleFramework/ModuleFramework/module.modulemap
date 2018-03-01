@@ -1,0 +1,8 @@
+module Code {
+  
+  header "Code-Private.h"
+  
+  export *
+  
+  link "ModuleFramework"
+}
