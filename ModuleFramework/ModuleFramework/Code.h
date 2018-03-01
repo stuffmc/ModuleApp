@@ -7,6 +7,6 @@
 
 @interface Code: NSObject
 
-- (void)publicMethod;
+- (void)publicObjCMethod;
 
 @end

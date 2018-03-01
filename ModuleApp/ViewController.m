@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "ModuleApp-Swift.h"
+#import <ModuleFramework/ModuleFramework.h>
 
 @interface ViewController ()
 
@@ -20,7 +21,8 @@
 }
 
 - (void)doneInObjC {
-    printf("OBJ-C");
+    printf("OBJ-C\n");
+    [[Code new] publicObjCMethod];
 }
 
 @end

@@ -7,6 +7,6 @@
 
 @interface Code()
 
-- (void)privateMethod;
+- (void)privateObjCMethod;
 
 @end

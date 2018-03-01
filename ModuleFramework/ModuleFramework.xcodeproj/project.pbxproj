@@ -10,7 +10,7 @@
 		4CA0C68120480A5F00DF459B /* ModuleFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA0C67F20480A5F00DF459B /* ModuleFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CA0C68820480AB000DF459B /* Code.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0C68720480AB000DF459B /* Code.m */; };
 		4CA0C68B20480AD700DF459B /* Code-Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA0C68920480AD700DF459B /* Code-Private.h */; };
-		4CA0C68C20480AD700DF459B /* Code.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA0C68A20480AD700DF459B /* Code.h */; };
+		4CA0C68C20480AD700DF459B /* Code.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA0C68A20480AD700DF459B /* Code.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */

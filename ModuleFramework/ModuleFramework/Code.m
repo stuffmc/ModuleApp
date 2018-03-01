@@ -8,12 +8,13 @@
 
 @implementation Code: NSObject
 
-- (void)publicMethod {
-    printf("PUBLIC");
+- (void)publicObjCMethod {
+    printf("PUBLIC OBJ-C\n");
+    [self privateObjCMethod];
 }
 
-- (void)privateMethod {
-    printf("PRIVATE");
+- (void)privateObjCMethod {
+    printf("PRIVATE OBJ-C\n");
 }
 
 @end
