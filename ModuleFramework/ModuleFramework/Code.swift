@@ -1,6 +1,8 @@
+import ModuleFrameworkPrivate
+
 extension Code {
     public func publicSwiftFunc() {
-        // I'm most probably doing something wrong the `module.modulemap` which seems not be loaded.
-        print("How to call `privateObjCMethod` from here?")
+        // See http://nsomar.com/project-and-private-headers-in-a-swift-and-objective-c-framework/
+        privateObjCMethod()
     }
 }
