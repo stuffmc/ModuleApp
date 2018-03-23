@@ -6,4 +6,8 @@ extension Code {
         privateObjCMethod(false)
         MyClass().publicObjCMethodInClassNotExtension()
     }
+    
+    @objc public func toBeCalledFromObjC() {
+        print("Called from ObjC")
+    }
 }
