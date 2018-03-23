@@ -3,6 +3,6 @@
 
 @interface Code()
 
-- (void)privateObjCMethod;
+- (void)privateObjCMethod:(BOOL)internal;
 
 @end

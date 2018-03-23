@@ -5,11 +5,11 @@
 
 - (void)publicObjCMethod {
     printf("PUBLIC OBJ-C\n");
-    [self privateObjCMethod];
+    [self privateObjCMethod:YES];
 }
 
-- (void)privateObjCMethod {
-    printf("PRIVATE OBJ-C\n");
+- (void)privateObjCMethod:(BOOL)internal {
+    printf("PRIVATE (%d) OBJ-C\n", internal);
 }
 
 @end
