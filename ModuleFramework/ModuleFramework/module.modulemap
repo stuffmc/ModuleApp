@@ -1,4 +1,5 @@
 module ModuleFrameworkPrivate {
   header "Code-Private.h"
+  header "Class.h"
   export *
 }
